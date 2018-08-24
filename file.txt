@@ -1,0 +1,48 @@
+CREATE TABLE tbl_EVAN_Request_Design(
+ObjectID INT IDENTITY(1,1) NOT NULL,
+No_Permintaan VARCHAR(50) NOT NULL,
+PIC_Request VARCHAR(150) NOT NULL,
+Departmen VARCHAR(50),
+Jabatan VARCHAR(50),
+Brand VARCHAR(225),
+Model VARCHAR(225),
+Ukuran VARCHAR(225),
+Brief TEXT,
+Tgl_Permintaan DATETIME
+)
+
+
+
+use Live
+go
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0001/REQ/2018/04/25','Evan Abeiza','IT Department','Programmer','Purbasari','POSM','250ml','Ini Format PO','2018-04-25 13:14:33.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0002/REQ/2018/04/25','Yunus Diandra','HR Department','BPM','Kanna','POSM','100ml','Catatan','2018-04-25 13:16:02.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0003/REQ/2018/04/25','Rismawati','IT Department','Analys','Purbasari','DISPLAY','200ml','Test Aja','2018-04-25 13:20:06.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0004/REQ/2018/04/25','Evan Abeiza','IT Department','Programmer','Purbasari LM','DISPLAY','230ml','Test','2018-04-25 13:21:47.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0005/REQ/2018/04/25','Evan Abeiza','IT Department','Programmer','Purbasari LM','DISPLAY','230ml','test','2018-04-25 13:24:54.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0006/REQ/2018/04/25','Evan Abeiza','IT Department','Programmer','Purbasari LM','OTHER','230ml','sekali lagi aja','2018-04-25 13:25:33.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0007/REQ/2018/04/25','Evan Abeiza','IT Department','Programmer','Purbasari','DISPLAY','512','iya','2018-04-25 13:26:33.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0008/REQ/2018/04/25','Evan Abeiza','IT Department','Programmer','Purbasari LM','DISPLAY','230ml','haha','2018-04-25 13:31:10.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0009/REQ/2018/04/25','Evan Abeiza','IT Department','Programmer','Purbasari LM','DISPLAY','230ml','haha','2018-04-25 13:31:58.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0010/REQ/2018/04/25','Evan Abeiza','IT Department','Programmer','Purbasari LM','DISPLAY','230ml','haha','2018-04-25 13:33:09.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0011/REQ/2018/04/25','Yunus Diandra','IT Department','Programmer','Purbasari LM','DISPLAY','230ml','ya','2018-04-25 13:33:37.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0012/REQ/2018/04/25','Evan Abeiza','IT Department','Programmer','Purbasari LM','PACKAGING','100ml','tst','2018-04-25 13:59:41.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0013/REQ/2018/04/25','Evan Abeiza','IT Department','Programmer','Purbasari','DISPLAY','512','tets','2018-04-25 14:51:29.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0014/REQ/2018/04/25','Rismawati','IT Department','Analys','Purbasari','DISPLAY','200ml','test aja','2018-04-25 14:58:04.000');
+
+INSERT INTO tbl_EVAN_Request_Design (No_Permintaan, PIC_Request, Departmen, Jabatan, Brand, Model, Ukuran, Brief, Tgl_Permintaan)VALUES('0015/REQ/2018/04/28','TEST','STORE','KIPER','BRANDY','POSM','XL','JANGAN DIBUAT','2018-04-28 09:02:37.000');
+
